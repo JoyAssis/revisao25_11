@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:red;
+    color: white;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+  width: 50vw; 
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    font-size: 2em;
+}
+img{
+    height: 50vh;
+}
+.produtoPrincipal{
+    border: solid 2px red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20em;
+}
+h1{
+    width: 50vw;
+    font-size: 5em;
+    color: red;
+}
+span:hover{
+   color: black;
+   text-decoration: underline;
+   cursor:pointer;
+}
+.produtos{
+    display: flex;
+}
+div{
+    width: 30vw;
+    height: 30vh;
+    border: solid 2px red;
+
+}
